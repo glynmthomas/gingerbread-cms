@@ -2019,11 +2019,11 @@ select {
 .callout {
   margin: 0 0 1rem 0;
   padding: 1rem;
-  border: 1px solid rgba(10, 10, 10, 0.25);
-  border-radius: 0;
   position: relative;
   color: #0a0a0a;
-  background-color: white; }
+  padding-top: 30%;
+   padding-left: 15%;
+padding-right: 15%;}
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
