@@ -1211,14 +1211,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: lubalin;
   font-weight: normal;
   font-style: normal;
   color: inherit;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  line-height: 1.4; }
+  line-height: 1.2; }
   h1 small,
   h2 small,
   h3 small,
@@ -2021,9 +2021,9 @@ select {
   padding: 1rem;
   position: relative;
   color: #0a0a0a;
-  padding-top: 30%;
+  padding-top: 35%;
    padding-left: 15%;
-padding-right: 15%;}
+padding-right: 5%;}
   .callout > :first-child {
     margin-top: 0; }
   .callout > :last-child {
