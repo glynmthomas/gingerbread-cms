@@ -760,7 +760,7 @@ button {
     width: 16.66667%; }
   .medium-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.66667%;}
   .medium-pull-2 {
     position: relative;
     left: -16.66667%; }
@@ -1229,10 +1229,10 @@ h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 1.5rem; }
+  font-size: 7rem; }
 
 h2 {
-  font-size: 1.25rem; }
+  font-size: 1.5rem; }
 
 h3 {
   font-size: 1.1875rem; }
@@ -1250,7 +1250,7 @@ h6 {
   h1 {
     font-size: 3rem; }
   h2 {
-    font-size: 2.5rem; }
+    font-size: 1.5rem; }
   h3 {
     font-size: 1.9375rem; }
   h4 {
@@ -2022,7 +2022,7 @@ select {
   position: relative;
   color: #0a0a0a;
   padding-top: 35%;
-   padding-left: 15%;
+   padding-left: 12%;
 padding-right: 5%;}
   .callout > :first-child {
     margin-top: 0; }
@@ -4192,3 +4192,126 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
+
+.buttons {margin-top: 110%; width: 100%;}
+
+.buttons2 {width: 100%; margin-top: 115%;}
+
+.buttons3 {margin-top: 115%; width: 100%;}
+
+.buttons4 {margin-top: 90%; width: 100%;}
+
+.buttons-left {padding-left: 16%; width: 45%; float: left;}
+
+.buttons-right {padding-right: 10%; float: right; width: 39%;}
+
+.bottom-page {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page2 {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page4 {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page5 {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page7 {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page8 {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page9 {width: 100%; position: absolute; right: 0; bottom: 0; left: 0; padding-bottom: 2%;}
+
+.bottom-page-left { width: 25%; padding-left: 15%; float: left; position: relative;}
+
+.bottom-page-right {width: 20%; padding-right: 10%; float: right; position: relative;}
+
+.bottom-page-center {width: 50%; float: left; position: relative; padding-left: 4%;}
+
+.page6-image {width: 25%; float: right;}
+
+.page5-image {width: 25%; float: right; margin-top: 12%;}
+
+.page8-image {width: 25%; float: right; margin-top: 25%;}
+
+/* Push */
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
